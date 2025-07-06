@@ -57,6 +57,34 @@ const ProgrammingCard = () => {
                 style={{ marginTop: "5px" }}
               />
             </div>
+            <div
+              className="col-md-2 m-1 pt-2 text-center shadow-sm card-hover-2 mx-3"
+              style={{
+                borderRadius: "10px",
+                backgroundColor: "rgba(4, 74, 66, 0.25)",
+                backdropFilter: "blur(10px)",
+                border: "2px solid rgba(255, 255, 255, 0.1)",
+                boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.36)",
+                color: "#fff",
+                minHeight: "100px",
+              }}
+            >
+              <p
+                style={{
+                  fontSize: "18px",
+                  marginBottom: "0px",
+                  color: "#dbd8e3",
+                }}
+              >
+                TypeScript
+              </p>
+              <img
+                src="src\assets\typescript.png"
+                alt=""
+                width={"40px"}
+                style={{ marginTop: "5px" }}
+              />
+            </div>
           </div>
         </div>
       </div>
