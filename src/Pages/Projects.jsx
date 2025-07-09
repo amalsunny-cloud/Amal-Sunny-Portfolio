@@ -15,6 +15,8 @@ import FitTracker from "../assets/FitTracker.png"
 import LandRoverLogo from "../assets/land-rover-logo.png"
 import AgainstTheCompass from "../assets/against-the -compass.png"
 import LuminarFavLogo from "../assets/LuminarFavLogo.jpg"
+import LiveLink from "../assets/live-link.png"
+import GitHubSymbol from "../assets/GitHub-Symbol.png"
 const Projects = () => {
   return (
     <>
@@ -170,7 +172,7 @@ const Projects = () => {
                     href="https://fit-navigator-frontend.vercel.app/"
                     target="_blank"
                   >
-                    <img src="src\assets\live-link.png" alt="" />
+                    <img src={LiveLink} alt="" />
                     Live Link
                   </a>
                   <div className="">
@@ -179,7 +181,7 @@ const Projects = () => {
                       href="https://github.com/amalsunny-cloud/fitNavigator-Frontend"
                       target="_blank"
                     >
-                      <img src="src\assets\GitHub-Symbol.png" alt="" /> Frontend
+                      <img src={GitHubSymbol} alt="" /> Frontend
                     </a>
 
                     <a
@@ -187,7 +189,7 @@ const Projects = () => {
                       href="https://github.com/amalsunny-cloud/fit-navigator"
                       target="_blank"
                     >
-                      <img src="src\assets\GitHub-Symbol.png" alt="" />
+                      <img src={GitHubSymbol} alt="" />
                       Backend{" "}
                     </a>
                   </div>
@@ -309,7 +311,7 @@ const Projects = () => {
                     href="https://media-frontend-six.vercel.app/"
                     target="_blank"
                   >
-                    <img src="src\assets\live-link.png" alt="" />
+                    <img src={LiveLink} alt="" />
                     Live Link
                   </a>
                   <div className="">
@@ -318,7 +320,7 @@ const Projects = () => {
                       href="https://github.com/amalsunny-cloud/media-frontend"
                       target="_blank"
                     >
-                      <img src="src\assets\GitHub-Symbol.png" alt="" /> Frontend
+                      <img src={GitHubSymbol} alt="" /> Frontend
                     </a>
 
                     <a
@@ -326,7 +328,7 @@ const Projects = () => {
                       href="https://github.com/amalsunny-cloud/media-server"
                       target="_blank"
                     >
-                      <img src="src\assets\GitHub-Symbol.png" alt="" />
+                      <img src={GitHubSymbol} alt="" />
                       Backend{" "}
                     </a>
                   </div>
@@ -448,7 +450,7 @@ const Projects = () => {
                     href="https://projectfair-app.netlify.app/"
                     target="_blank"
                   >
-                    <img src="src\assets\live-link.png" alt="" />
+                    <img src={LiveLink} alt="" />
                     Live Link
                   </a>
                   <div className="">
@@ -457,7 +459,7 @@ const Projects = () => {
                       href="https://github.com/amalsunny-cloud/Project-Fair-Frontend"
                       target="_blank"
                     >
-                      <img src="src\assets\GitHub-Symbol.png" alt="" /> Frontend
+                      <img src={GitHubSymbol} alt="" /> Frontend
                     </a>
 
                     <a
@@ -465,7 +467,7 @@ const Projects = () => {
                       href="https://github.com/amalsunny-cloud/pf-server"
                       target="_blank"
                     >
-                      <img src="src\assets\GitHub-Symbol.png" alt="" />
+                      <img src={GitHubSymbol} alt="" />
                       Backend{" "}
                     </a>
                   </div>
