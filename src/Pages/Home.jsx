@@ -3,6 +3,9 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import profileImg from '../assets/propic-bg-removed.png'
+import ContactMe from '../assets/contact-me.jpg'
+import ResumeIconVector from '../assets/resume-icon-vector.png'
+import { Link } from "react-router-dom";
 
 function Home() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -153,7 +156,7 @@ function Home() {
               style={{ backgroundColor: "#78abca" }}
             >
               <img
-                src="src\assets\resume-icon-vector.png"
+                src={ResumeIconVector}
                 alt=""
                 width={"20px"}
                 className="me-2"
@@ -161,20 +164,20 @@ function Home() {
               View Resume
             </button>
 
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               target="_blank"
               className="btn mx-2 px-4 py-2 fw-bold"
               style={{ backgroundColor: "#97cba9" }}
             >
               <img
-                src="src\assets\contact-me.jpg"
+                src={ContactMe}
                 alt=""
                 width={"30px"}
                 className="me-2"
               />
               Contact me
-            </a>
+            </Link>
           </div>
 
           <div className="social-icons d-flex justify-content-center">
