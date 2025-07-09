@@ -1,5 +1,20 @@
 import Footer from "../Components/Footer";
-
+import GymMgmt from "../assets/GYM-MGMT.png"
+import WinMediaPlayerIcon from "../assets/Windows-11-Media-Player-Icon.png"
+import ProjectFairIcon from "../assets/projecct-fair-icon.png"
+import wordleNewIcon from "../assets/wordleNewIcon.png"
+import Gemini_language_model_logo from "../assets/Gemini_language_model_logo.png"
+import DiscountCcalculatorIcon from "../assets/discount-calculator-icon.jpg"
+import Ekart from "../assets/E-kart.png"
+import SICalculator from "../assets/simple-interest-calculator.png"
+import BMI from "../assets/BMI.png"
+import Bank from "../assets/Bank.png"
+import BudgetCalculator from "../assets/Budget calculator.png"
+import TimHortons from "../assets/tim-hortons-logo.png"
+import FitTracker from "../assets/FitTracker.png"
+import LandRoverLogo from "../assets/land-rover-logo.png"
+import AgainstTheCompass from "../assets/against-the -compass.png"
+import LuminarFavLogo from "../assets/LuminarFavLogo.jpg"
 const Projects = () => {
   return (
     <>
@@ -58,7 +73,7 @@ const Projects = () => {
                 <div className="blur-hover">
                   <div className="blur-hover-2">
                     <img
-                      src="src/assets/GYM-MGMT.png"
+                      src={GymMgmt}
                       alt=""
                       width={"140px"}
                       className="mt-4"
@@ -196,7 +211,7 @@ const Projects = () => {
                 <div style={{ marginTop: "0px" }} className="blur-hover">
                   <div className="blur-hover-2">
                     <img
-                      src="src/assets/Windows-11-Media-Player-Icon.png"
+                      src={WinMediaPlayerIcon}
                       className="mt-4"
                       alt=""
                       width={"120px"}
@@ -336,7 +351,7 @@ const Projects = () => {
                 <div style={{ marginTop: "0px" }} className="blur-hover">
                   <div className="blur-hover-2">
                     <img
-                      src="src/assets/projecct-fair-icon.png"
+                      src={ProjectFairIcon}
                       className="mt-4 mb-1"
                       alt=""
                       width={"120px"}
@@ -474,7 +489,7 @@ const Projects = () => {
                 <div style={{ marginTop: "20px" }} className="blur-hover">
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\wordleNewIcon.png"
+                      src={wordleNewIcon}
                       className=""
                       alt=""
                       width={"130px"}
@@ -600,7 +615,7 @@ const Projects = () => {
                 <div style={{ marginTop: "-5px" }} className="blur-hover">
                   <div className="blur-hover-2 d-flex justify-content-center align-items-center mb-4">
                     <img
-                      src="src\assets\Gemini_language_model_logo.png"
+                      src={Gemini_language_model_logo}
                       className="mt-4"
                       alt=""
                       width={"180px"}
@@ -724,7 +739,7 @@ const Projects = () => {
                 <div style={{ marginTop: "-3px" }} className="blur-hover">
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\discount-calculator-icon.jpg"
+                      src={DiscountCcalculatorIcon}
                       className=""
                       alt=""
                       width={"125px"}
@@ -850,7 +865,7 @@ const Projects = () => {
                 <div style={{ marginBottom: "10px" }} className="blur-hover">
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\E-kart.png"
+                      src={Ekart}
                       className=""
                       alt=""
                       width={"110px"}
@@ -975,7 +990,7 @@ const Projects = () => {
                 <div style={{ marginTop: "-20px" }}>
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\simple-interest-calculator.png"
+                      src={SICalculator}
                       alt=""
                       width={"140px"}
                     />
@@ -1107,7 +1122,7 @@ const Projects = () => {
                 <div style={{ marginTop: "10px" }} className="blur-hover">
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\BMI.png"
+                      src={BMI}
                       className="mb-1"
                       alt=""
                       width={"140px"}
@@ -1237,7 +1252,7 @@ const Projects = () => {
                 <div style={{ marginTop: "10px" }} className="blur-hover">
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\Bank.png"
+                      src={Bank}
                       className=""
                       alt=""
                       width={"140px"}
@@ -1368,7 +1383,7 @@ const Projects = () => {
                 <div style={{ marginTop: "10px" }} className="blur-hover">
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\Budget calculator.png"
+                      src={BudgetCalculator}
                       className=""
                       alt=""
                       width={"120px"}
@@ -1498,7 +1513,7 @@ const Projects = () => {
                 <div style={{ marginTop: "10px" }}>
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\tim-hortons-logo.png"
+                      src={TimHortons}
                       className=""
                       alt=""
                       width={"140px"}
@@ -1623,7 +1638,7 @@ const Projects = () => {
                 <div style={{ marginTop: "0px" }} className="blur-hover">
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\FitTracker.png"
+                      src={FitTracker}
                       className=""
                       alt=""
                       width={"120px"}
@@ -1735,7 +1750,7 @@ const Projects = () => {
                 <div className="blur-hover">
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\land-rover-logo.png"
+                      src={LandRoverLogo}
                       className=""
                       alt=""
                       width={"160px"}
@@ -1853,7 +1868,7 @@ const Projects = () => {
                 <div style={{ marginTop: "-30px" }}>
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\against-the -compass.png"
+                      src={AgainstTheCompass}
                       alt=""
                       width={"180px"}
                     />
@@ -1965,7 +1980,7 @@ const Projects = () => {
                 <div style={{ marginTop: "-40px" }}>
                   <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
                     <img
-                      src="src\assets\LuminarFavLogo.jpg"
+                      src={LuminarFavLogo}
                       alt=""
                       width={"120px"}
                       style={{ borderRadius: "50%" }}

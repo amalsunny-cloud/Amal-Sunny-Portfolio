@@ -1,8 +1,14 @@
+import NetlifyLogo from "../assets/icons8-netlify-100.png";
+import RenderLogo from "../assets/render-2.png";
+import VercelLogo from "../assets/vercel-icon-svgrepo-com.svg";
+
+
+
 const Cloud = () => {
   const CloudDeployment = [
-    { name: "Netlify", image: "src/assets/icons8-netlify-100.png" },
-    { name: "Render", image: "src/assets/render-2.png" },
-    { name: "Vercel", image: "src/assets/vercel-icon-svgrepo-com.svg" },
+    { name: "Netlify", image: NetlifyLogo },
+    { name: "Render", image: RenderLogo },
+    { name: "Vercel", image: VercelLogo },
   ];
   return (
     <>

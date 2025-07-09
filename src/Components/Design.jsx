@@ -1,8 +1,13 @@
+import FigmaLogo from "../assets/Figma-Logo-PNG-Cutout.png";
+import PhotoshopLogo from "../assets/icons8-photoshop.png";
+import WordLogo from "../assets/icons8-word.png";
+
+
 const Design = () => {
   const DesignSection = [
-    { name: "Figma", image: "src/assets/Figma-Logo-PNG-Cutout.png" },
-    { name: "PhotoShop", image: "src/assets/icons8-photoshop.png" },
-    { name: "Word", image: "src/assets/icons8-word.png" },
+    { name: "Figma", image: FigmaLogo },
+    { name: "PhotoShop", image: PhotoshopLogo },
+    { name: "Word", image: WordLogo },
   ];
 
   return (

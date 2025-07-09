@@ -1,10 +1,18 @@
+import HTMLLogo from "../assets/html-5.png";
+import CSSLogo from "../assets/css-3.png";
+import TailwindLogo from "../assets/icons8-tailwind-css-256.png";
+import BootstrapLogo from "../assets/icons8-bootstrap-256.png";
+import ReactLogo from "../assets/science.png";
+
+
+
 const FrontEndCard = () => {
   const skills = [
-    { name: "HTML", image: "src/assets/html-5.png" },
-    { name: "CSS", image: "src/assets/css-3.png" },
-    { name: "Tailwind", image: "src/assets/icons8-tailwind-css-256.png" },
-    { name: "Bootstrap", image: "src/assets/icons8-bootstrap-256.png" },
-    { name: "React", image: "src/assets/science.png" },
+    { name: "HTML", image: HTMLLogo },
+    { name: "CSS", image: CSSLogo },
+    { name: "Tailwind", image: TailwindLogo },
+    { name: "Bootstrap", image: BootstrapLogo },
+    { name: "React", image: ReactLogo },
   ];
   return (
     <>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import profileImg from '../assets/propic-bg-removed.png'
 
 function Home() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -96,7 +97,7 @@ function Home() {
             }}
           >
             <img
-              src="src\assets\propic-bg-removed.png"
+              src={profileImg}
               alt=""
               width={"260px"}
               style={{

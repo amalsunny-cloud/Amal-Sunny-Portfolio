@@ -1,10 +1,17 @@
+import FirebaseLogo from "../assets/icons8-firebase-256.png";
+import GitLogo from "../assets/git-svgrepo-com.svg";
+import GithubLogo from "../assets/github-142-svgrepo-com.svg";
+import JwtLogo from "../assets/icons8-jwt-256.png";
+import ReduxLogo from "../assets/icons8-redux-256.png";
+
+
 const DevTools = () => {
   const DevToolsLibrary = [
-    { name: "Firebase", image: "src/assets/icons8-firebase-256.png" },
-    { name: "Git", image: "src/assets/git-svgrepo-com.svg" },
-    { name: "GitHub", image: "src/assets/github-142-svgrepo-com.svg" },
-    { name: "JWT", image: "src/assets/icons8-jwt-256.png" },
-    { name: "Redux", image: "src/assets/icons8-redux-256.png" },
+    { name: "Firebase", image: FirebaseLogo },
+    { name: "Git", image: GitLogo },
+    { name: "GitHub", image: GithubLogo },
+    { name: "JWT", image: JwtLogo },
+    { name: "Redux", image: ReduxLogo },
   ];
   return (
     <>

@@ -1,6 +1,8 @@
+import RazorpayLogo from "../assets/razorPay.png";
+
 const Payment = () => {
   const PaymentSection = [
-    { name: "Razorpay", image: "src/assets/razorPay.png" },
+    { name: "Razorpay", image: RazorpayLogo },
   ];
   return (
     <>

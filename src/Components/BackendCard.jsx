@@ -1,8 +1,13 @@
+import ExpressLogo from "../assets/icons8-express-js.png";
+import NodeLogo from "../assets/node-js-svgrepo-com.svg";
+import MongoLogo from "../assets/icons8-mongodb-96.png";
+
+
 const BackendCard = () => {
   const BackEndskills = [
-    { name: "Express.js", image: "src/assets/icons8-express-js.png" },
-    { name: "Node.js", image: "src/assets/node-js-svgrepo-com.svg" },
-    { name: "MongoDB", image: "src/assets/icons8-mongodb-96.png" },
+    { name: "Express.js", image: ExpressLogo },
+    { name: "Node.js", image: NodeLogo },
+    { name: "MongoDB", image: MongoLogo },
   ];
   return (
     <>

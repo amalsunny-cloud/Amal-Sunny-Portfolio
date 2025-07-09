@@ -1,3 +1,6 @@
+import JSIcon from '../assets/js.png'
+import TSIcon from '../assets/typescript.png'
+
 const ProgrammingCard = () => {
   return (
     <>
@@ -51,7 +54,7 @@ const ProgrammingCard = () => {
                 Javascript
               </p>
               <img
-                src="src\assets\js.png"
+                src={JSIcon}
                 alt=""
                 width={"40px"}
                 style={{ marginTop: "5px" }}
@@ -79,7 +82,7 @@ const ProgrammingCard = () => {
                 TypeScript
               </p>
               <img
-                src="src\assets\typescript.png"
+                src={TSIcon}
                 alt=""
                 width={"40px"}
                 style={{ marginTop: "5px" }}
