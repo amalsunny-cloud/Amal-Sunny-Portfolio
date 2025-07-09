@@ -166,7 +166,7 @@ function Home() {
 
             <Link
               to="/contact"
-              target="_blank"
+              
               className="btn mx-2 px-4 py-2 fw-bold"
               style={{ backgroundColor: "#97cba9" }}
             >
