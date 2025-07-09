@@ -2,10 +2,18 @@ import { useForm, ValidationError } from "@formspree/react";
 import Footer from "../Components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import sendIcon from '../assets/send.png';
+import { useNavigate } from "react-router-dom";
+
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("xblonyeg");
+  const [state, handleSubmit, reset] = useForm("xblonyeg");
 
+  const navigate = useNavigate();
+  
+  const handleReset = ()=>{
+    reset();
+    navigate("/contact")
+  }
   return (
     <>
       <div
@@ -77,7 +85,7 @@ function ContactForm() {
                 </p>
                 <button
                   className="btn btn-outline-light mt-3"
-                  onClick={() => window.location.reload()}
+                  onClick={handleReset}
                 >
                   Send Another Message
                 </button>
