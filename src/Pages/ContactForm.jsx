@@ -1,5 +1,7 @@
 import { useForm, ValidationError } from "@formspree/react";
 import Footer from "../Components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import sendIcon from '../assets/send.png';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xblonyeg");
@@ -165,8 +167,8 @@ function ContactForm() {
                     disabled={state.submitting}
                   >
                     <img
-                      src="src\assets\send.png"
-                      alt=""
+                      src={sendIcon}
+                      alt="Send Icon"
                       width={"20px"}
                       style={{ filter: "invert(100%)", marginRight: "10px" }}
                     />
