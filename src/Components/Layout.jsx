@@ -6,25 +6,25 @@ const Layout = () => {
   const [expanded, setExpanded] = useState(false);
 
   const closeNav = () => setExpanded(false);
+
   return (
     <>
       <Navbar
         expand="lg"
         fixed="top"
         expanded={expanded}
-        className="main-navbar d-flex "
+        className="main-navbar d-flex"
       >
-        <Container>
+    
+        <Container >
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
-            onClick={() => setExpanded(expanded ? false : true)}
+            onClick={() => setExpanded(prev => !prev)}
           />
 
-          <Navbar.Collapse
-            id="basic-navbar-nav"
-            className="d-flex justify-content-center align-items-center"
-          >
-            <Nav>
+          <Navbar.Collapse id="basic-navbar-nav" >
+            <div className="d-flex justify-content-center w-100">
+            <Nav >
               <Nav.Link
                 activeclass="active"
                 to="/"
@@ -45,7 +45,7 @@ const Layout = () => {
                 as={NavLink}
                 offset={-70}
                 duration={500}
-                className="nav-link custom-link custom-link"
+                className="nav-link custom-link"
                 onClick={closeNav}
                 style={{ overflow: "hidden" }}
               >
@@ -58,7 +58,7 @@ const Layout = () => {
                 as={NavLink}
                 offset={-70}
                 duration={500}
-                className="nav-link custom-link custom-link"
+                className="nav-link custom-link"
                 onClick={closeNav}
                 style={{ overflow: "hidden" }}
               >
@@ -78,6 +78,7 @@ const Layout = () => {
                 Contact
               </Nav.Link>
             </Nav>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
