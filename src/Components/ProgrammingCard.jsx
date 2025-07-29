@@ -31,7 +31,7 @@ const ProgrammingCard = () => {
             Programming Language
           </p>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center mx-4">
             <div
               className="col-md-2 m-1 pt-2 text-center shadow-sm card-hover-2 mx-3"
               style={{

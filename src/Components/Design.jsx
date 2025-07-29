@@ -38,7 +38,7 @@ const Design = () => {
             Design & Content
           </p>
 
-          <div className="row justify-content-center mt-3">
+          <div className="row justify-content-center mt-3 mx-4">
             {DesignSection.map((skill) => (
               <div
                 key={skill}

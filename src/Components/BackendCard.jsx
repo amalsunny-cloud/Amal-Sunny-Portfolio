@@ -36,7 +36,7 @@ const BackendCard = () => {
             Backend & Database
           </p>
 
-          <div className="row justify-content-center mt-3">
+          <div className="row justify-content-center mt-3 mx-4">
             {BackEndskills.map((skill) => (
               <div
                 key={skill.name}

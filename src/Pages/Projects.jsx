@@ -60,7 +60,7 @@ const Projects = () => {
 
             <div className="row justify-content-center">
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -198,7 +198,7 @@ const Projects = () => {
 
               {/* second card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 text-center rounded-4 shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -338,7 +338,7 @@ const Projects = () => {
               {/* third card */}
 
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -476,7 +476,7 @@ const Projects = () => {
 
               {/* fourth card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -602,7 +602,7 @@ const Projects = () => {
               {/* fifth card */}
 
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -726,7 +726,7 @@ const Projects = () => {
 
               {/* sixth project */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -852,7 +852,7 @@ const Projects = () => {
 
               {/* 7th card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -977,7 +977,7 @@ const Projects = () => {
 
               {/* 8th card */}
               <div
-                className="col-md-3 m-3 p-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -1109,7 +1109,7 @@ const Projects = () => {
 
               {/* 9th card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -1239,7 +1239,7 @@ const Projects = () => {
 
               {/* 10th card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -1370,7 +1370,7 @@ const Projects = () => {
 
               {/* 11th card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -1500,7 +1500,7 @@ const Projects = () => {
 
               {/* 12th card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -1625,7 +1625,7 @@ const Projects = () => {
 
               {/* 13th card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -1737,7 +1737,7 @@ const Projects = () => {
 
               {/* 14th card */}
               <div
-                className="col-md-3 m-3 p-4 pt-0 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -1855,7 +1855,7 @@ const Projects = () => {
 
               {/* 15th card */}
               <div
-                className="col-md-3 m-3 p-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",
@@ -1967,7 +1967,7 @@ const Projects = () => {
 
               {/* 16th card */}
               <div
-                className="col-md-3 m-3 p-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                className="col-md-3 m-3 p-4 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
                 style={{
                   borderRadius: "10px",
                   backgroundColor: "rgba(4, 74, 66, 0.25)",

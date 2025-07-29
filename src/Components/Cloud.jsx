@@ -38,7 +38,7 @@ const Cloud = () => {
             Cloud & Deployment
           </p>
 
-          <div className="row justify-content-center mt-3">
+          <div className="row justify-content-center mt-3 mx-4">
             {CloudDeployment.map((skill) => (
               <div
                 key={skill.name}

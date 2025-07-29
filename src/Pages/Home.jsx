@@ -93,12 +93,13 @@ function Home() {
       >
         <div className="mt-4">
           <div
-            className="d-flex justify-content-center mt-4"
+            className="d-flex justify-content-center"
             style={{
               opacity: fadeIn ? 1 : 0,
               transition: "opacity 0.8s ease-in-out 0.2s",
             }}
           >
+            
             <img
               src={profileImg}
               alt=""
@@ -107,6 +108,7 @@ function Home() {
                 borderRadius: "50%",
                 border: "5px solid #5c715e",
                 userSelect: "none",
+                margin:"25px"
               }}
             />
           </div>
@@ -127,6 +129,7 @@ function Home() {
                 backgroundClip: "text",
                 color: "#dbd8e3",
               }}
+            
             >
               Hi, I'm Amal Sunny
             </p>
@@ -144,7 +147,7 @@ function Home() {
           </div>
 
           <div
-            className="d-flex justify-content-center my-3 mb-4"
+            className="d-flex justify-content-center my-2 mb-3"
             style={{
               opacity: fadeIn ? 1 : 0,
               transition: "opacity 0.8s ease-in-out 0.6s",
