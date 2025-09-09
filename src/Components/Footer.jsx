@@ -12,7 +12,7 @@ const Footer = () => {
     >
       <div className="d-flex justify-content-center">
         &copy; {new Date().getFullYear()} Amal Sunny.{" "}
-        <span style={{ color: "#5c5470", marginLeft: "8px" }}>
+        <span style={{ color: "#7b7098ff", marginLeft: "8px" }}>
           All rights reserved.
         </span>
       </div>

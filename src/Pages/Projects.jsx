@@ -1138,7 +1138,7 @@ const Projects = () => {
                       marginTop: "10px",
                     }}
                   >
-                    BMI Calcualtor
+                    BMI Calculator
                   </p>
                   <p style={{ height: "146px", marginBottom: "0px" }}>
                     A sleek and interactive tool used to calculate BMI
@@ -1267,7 +1267,7 @@ const Projects = () => {
                       marginTop: "10px",
                     }}
                   >
-                    Bank
+                    Simple Bank
                   </p>
                   <p style={{ height: "auto", marginBottom: "0px" }}>
                     A lightweight banking simulation designed for local
