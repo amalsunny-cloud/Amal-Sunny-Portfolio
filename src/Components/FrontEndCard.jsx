@@ -3,6 +3,8 @@ import CSSLogo from "../assets/css-3.png";
 import TailwindLogo from "../assets/icons8-tailwind-css-256.png";
 import BootstrapLogo from "../assets/icons8-bootstrap-256.png";
 import ReactLogo from "../assets/science.png";
+import FramerLogo from '../assets/framerLogo.png'
+import ThreeJSLogo from '../assets/threejsLogo.png'
 
 
 
@@ -13,6 +15,8 @@ const FrontEndCard = () => {
     { name: "Tailwind", image: TailwindLogo },
     { name: "Bootstrap", image: BootstrapLogo },
     { name: "React", image: ReactLogo },
+    { name: "Framer", image: FramerLogo },
+    { name: "Three JS", image: ThreeJSLogo },
   ];
   return (
     <>

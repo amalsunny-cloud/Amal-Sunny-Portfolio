@@ -7,7 +7,7 @@ const Design = () => {
   const DesignSection = [
     { name: "Figma", image: FigmaLogo },
     { name: "PhotoShop", image: PhotoshopLogo },
-    { name: "Word", image: WordLogo },
+    // { name: "Word", image: WordLogo },
   ];
 
   return (
