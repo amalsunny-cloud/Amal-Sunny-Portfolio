@@ -49,19 +49,19 @@ function Home() {
         );
       } else if (word.includes("React")) {
         return (
-          <span key={index} style={{ color: "#61dff8" }}>
+          <span key={index} style={{ color: "#61dff6" }}>
             {word}
           </span>
         );
       } else if (word.includes("Node.js")) {
         return (
-          <span key={index} style={{ color: "#7dba04" }}>
+          <span key={index} style={{ color: "#7dba03" }}>
             {word}
           </span>
         );
       } else if (word.includes("MongoDB")) {
         return (
-          <span key={index} style={{ color: "#469e47" }}>
+          <span key={index} style={{ color: "#469e46" }}>
             {word}
           </span>
         );

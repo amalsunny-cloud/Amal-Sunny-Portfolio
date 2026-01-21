@@ -106,7 +106,7 @@ const Projects = () => {
                     <span
                       style={{
                         fontSize: "14px",
-                        color: "#00b7c2",
+                        color: "#00b7c4",
                         padding: "5px",
                       }}
                     >
