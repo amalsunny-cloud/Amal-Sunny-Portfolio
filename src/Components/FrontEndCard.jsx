@@ -38,7 +38,7 @@ const FrontEndCard = () => {
               fontSize: "28px",
               fontWeight: "600",
               userSelect: "none",
-              color: "#dbd8e3",
+              color: "#dbd8e5",
             }}
           >
             Frontend development
