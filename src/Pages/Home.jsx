@@ -16,7 +16,7 @@ function Home() {
     "Fullstack Developer building dynamic and scalable web applications with JavaScript, React, Node.js, and MongoDB bridging the gap between frontend aesthetics and backend efficiency.";
 
   const handleViewResume = () => {
-    window.open("Amal Sunny (Mern).pdf", "_blank");
+    window.open("Amal Sunny (RESUME).pdf", "_blank");
   };
 
   useEffect(() => {
@@ -49,19 +49,19 @@ function Home() {
         );
       } else if (word.includes("React")) {
         return (
-          <span key={index} style={{ color: "#61dff8" }}>
+          <span key={index} style={{ color: "#61dff6" }}>
             {word}
           </span>
         );
       } else if (word.includes("Node.js")) {
         return (
-          <span key={index} style={{ color: "#7dba04" }}>
+          <span key={index} style={{ color: "#7dba03" }}>
             {word}
           </span>
         );
       } else if (word.includes("MongoDB")) {
         return (
-          <span key={index} style={{ color: "#469e47" }}>
+          <span key={index} style={{ color: "#469e46" }}>
             {word}
           </span>
         );
@@ -102,7 +102,8 @@ function Home() {
             
             <img
               src={profileImg}
-              alt=""
+              alt="Profile Image"
+              loading="lazy"
               width={"260px"}
               style={{
                 borderRadius: "50%",
@@ -160,7 +161,8 @@ function Home() {
             >
               <img
                 src={ResumeIconVector}
-                alt=""
+                alt="Resume Icon"
+                
                 width={"20px"}
                 className="me-2"
               />
@@ -175,7 +177,8 @@ function Home() {
             >
               <img
                 src={ContactMe}
-                alt=""
+                alt="Contact Icon"
+                
                 width={"30px"}
                 className="me-2"
               />
