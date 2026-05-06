@@ -3,6 +3,7 @@ import GymMgmt from "../assets/GYM-MGMT.png"
 import WinMediaPlayerIcon from "../assets/Windows-11-Media-Player-Icon.png"
 import ProjectFairIcon from "../assets/projecct-fair-icon.png"
 import wordleNewIcon from "../assets/wordleNewIcon.png"
+import PinDropIcon from "../assets/pindrop.png"
 import Gemini_language_model_logo from "../assets/Gemini_language_model_logo.png"
 import DiscountCcalculatorIcon from "../assets/discount-calculator-icon.jpg"
 import Ekart from "../assets/E-kart.png"
@@ -473,6 +474,136 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
+
+
+{/* pindrop */}
+
+{/* pindrop card */}
+              <div
+                className="col-md-3 m-3 p-4 pt-0 rounded-4 text-center shadow-sm card-hover d-flex align-items-center justify-content-center"
+                style={{
+                  borderRadius: "10px",
+                  backgroundColor: "rgba(4, 74, 66, 0.25)",
+                  backdropFilter: "blur(10px)",
+                  border: "1px solid rgba(255, 255, 255, 0.1)",
+                  boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.36)",
+                  color: "#fff",
+                  minHeight: "100px",
+                }}
+              >
+                {/* pindrop project */}
+                <div style={{ marginTop: "20px" }} className="blur-hover">
+                  <div className="blur-hover-2 d-flex flex-column justify-content-center align-items-center">
+                    <img
+                      src={PinDropIcon}
+                      className=""
+                      alt=""
+                      width={"130px"}
+                      style={{ borderRadius: "50%" }}
+                    />
+                  </div>
+                  <p
+                    style={{
+                      fontSize: "18px",
+                      color: "#00b7c2",
+                    }}
+                  >
+                    PinDrop
+                  </p>
+                  <p style={{ height: "146px", marginBottom: "0px" }}>
+                    PinDrop is a travelblog website using react.js with smooth animations , visual effects, add to favourite and pdf downloadable feature.
+                  </p>
+                  <br />
+                  <p
+                    style={{ marginBottom: "0px" }}
+                    className="d-flex flex-column justify-content-center align-items-center"
+                  >
+                    <span style={{ marginBottom: "7px", fontWeight: "bold" }}>
+                      💻 Built with:{" "}
+                    </span>
+                    <span
+                      style={{
+                        fontSize: "14px",
+                        color: "#00b7c2",
+                        padding: "5px",
+                      }}
+                    >
+                      <span
+                        style={{
+                          color: "white",
+                          border: "1px solid rgb(144, 143, 141)",
+                          padding: "3px 7px",
+                          background:
+                            "linear-gradient(to right,#020931,#1e549f)",
+                          borderRadius: "10px",
+                          marginRight: "5px",
+                        }}
+                      >
+                        HTML
+                      </span>
+                      <span
+                        style={{
+                          color: "white",
+                          border: "1px solid  rgb(144, 143, 141)",
+                          padding: "3px 7px",
+                          background:
+                            "linear-gradient(to right,#020931,#1e549f)",
+                          borderRadius: "10px",
+                          marginRight: "5px",
+                        }}
+                      >
+                        CSS
+                      </span>
+                      <span
+                        style={{
+                          color: "white",
+                          border: "1px solid  rgb(144, 143, 141)",
+                          padding: "3px 7px",
+                          background:
+                            "linear-gradient(to right,#020931,#1e549f)",
+                          borderRadius: "10px",
+                          marginRight: "5px",
+                        }}
+                      >
+                        TailwindCSS
+                      </span>
+                      <span
+                        style={{
+                          color: "white",
+                          border: "1px solid  rgb(144, 143, 141)",
+                          padding: "3px 7px",
+                          background:
+                            "linear-gradient(to right,#020931,#1e549f)",
+                          borderRadius: "10px",
+                          marginRight: "5px",
+                        }}
+                      >
+                        React
+                      </span>
+                    </span>
+                  </p>
+                </div>
+                <div className="button-container-3">
+                  <a
+                    className="live-link-btn text-decoration-none"
+                    href="https://pin-drop-travel-blog.vercel.app/"
+                    target="_blank"
+                  >
+                    Live Link
+                  </a>
+                  <a
+                    className="view-code-btn text-decoration-none"
+                    href="https://github.com/amalsunny-cloud/PinDrop---Travel-Blog"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+
+
+
 
               {/* fourth card */}
               <div

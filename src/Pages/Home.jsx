@@ -13,7 +13,7 @@ function Home() {
   const [isTypingComplete, setIsTypingComplete] = useState(false);
 
   const fullText =
-    "Fullstack Developer building dynamic and scalable web applications with JavaScript, React, Node.js, and MongoDB bridging the gap between frontend aesthetics and backend efficiency.";
+    "Fullstack Developer building dynamic and scalable web applications with JavaScript,TypeScript, React, Node.js, and MongoDB bridging the gap between frontend aesthetics and backend efficiency.";
 
   const handleViewResume = () => {
     window.open("Amal Sunny (RESUME).pdf", "_blank");
