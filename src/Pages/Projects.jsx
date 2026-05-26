@@ -505,7 +505,7 @@ const Projects = () => {
                   <p
                     style={{
                       fontSize: "18px",
-                      color: "#00b7c2",
+                      color: "#00c4ce",
                     }}
                   >
                     PinDrop
